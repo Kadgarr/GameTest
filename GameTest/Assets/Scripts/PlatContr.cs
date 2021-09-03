@@ -19,8 +19,8 @@ public class PlatContr : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         pContr = GameObject.FindGameObjectWithTag("Joystick").GetComponent<JScontroller>();
         pointVector.x = 0;
-        pointVector.y = 2.22f;
-        pointVector.z = -10.64f;
+        pointVector.y = 2.217136f;
+        pointVector.z = -10.36f;
     }
 
     // Update is called once per frame

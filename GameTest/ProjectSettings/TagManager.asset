@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Joystick
+  - GameOver
+  - Sphere
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - level8
   - 
   - 
   - 
@@ -41,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 835846305
     locked: 0

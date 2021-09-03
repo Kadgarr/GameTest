@@ -31,7 +31,7 @@ public class JScontroller : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoi
             pos.x = (pos.x / joystickBG.rectTransform.sizeDelta.x);
             pos.y = (pos.y / joystickBG.rectTransform.sizeDelta.y);
 
-            inputVector = new Vector2(pos.x * 2 - 1, pos.y * 2 - 1);
+            inputVector = new Vector2(pos.x * 2, pos.y * 2);
             inputVector = (inputVector.magnitude > 1.0f) ? inputVector.normalized : inputVector;
 
             joystick.rectTransform.anchoredPosition = new Vector2(inputVector.x * (joystickBG.rectTransform.sizeDelta.x / 2), inputVector.y * (joystickBG.rectTransform.sizeDelta.y / 2));
