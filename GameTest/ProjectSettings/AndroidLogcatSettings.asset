@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "fb24ba61",
         "name": "com.DefaultCompany.GameTest",
-        "processId": 4558,
+        "processId": 28348,
         "exited": true
     },
     "m_SelectedPriority": 0,
@@ -12,7 +12,7 @@
             "deviceId": "fb24ba61",
             "name": "org.telegram.messenger",
             "processId": 30308,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "fb24ba61",
@@ -36,6 +36,36 @@
             "deviceId": "fb24ba61",
             "name": "com.DefaultCompany.GameTest",
             "processId": 4558,
+            "exited": true
+        },
+        {
+            "deviceId": "fb24ba61",
+            "name": "com.miui.home",
+            "processId": 7589,
+            "exited": false
+        },
+        {
+            "deviceId": "fb24ba61",
+            "name": "com.DefaultCompany.GameTest",
+            "processId": 26456,
+            "exited": true
+        },
+        {
+            "deviceId": "fb24ba61",
+            "name": "com.DefaultCompany.GameTest",
+            "processId": 27262,
+            "exited": true
+        },
+        {
+            "deviceId": "fb24ba61",
+            "name": "com.DefaultCompany.GameTest",
+            "processId": 28060,
+            "exited": true
+        },
+        {
+            "deviceId": "fb24ba61",
+            "name": "com.DefaultCompany.GameTest",
+            "processId": 28348,
             "exited": true
         }
     ],

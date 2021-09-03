@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlatContr : MonoBehaviour
 {
     public float speedMove;
+    public float speed;
 
 
     private float gravityForce;
@@ -36,6 +37,6 @@ public class PlatContr : MonoBehaviour
         moveVector.x = pContr.Vertical()* speedMove;
         moveVector.y = pContr.Horizontal() * speedMove;
 
-        characterController.transform.RotateAround(pointVector, moveVector, 100 * Time.deltaTime);
+        characterController.transform.RotateAround(pointVector, moveVector, speed * Time.deltaTime);
     }
 }
