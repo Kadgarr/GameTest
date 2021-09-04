@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "fb24ba61",
         "name": "com.DefaultCompany.GameTest",
-        "processId": 28348,
+        "processId": 11304,
         "exited": true
     },
     "m_SelectedPriority": 0,
@@ -66,6 +66,24 @@
             "deviceId": "fb24ba61",
             "name": "com.DefaultCompany.GameTest",
             "processId": 28348,
+            "exited": true
+        },
+        {
+            "deviceId": "fb24ba61",
+            "name": "com.DefaultCompany.GameTest",
+            "processId": 28941,
+            "exited": true
+        },
+        {
+            "deviceId": "fb24ba61",
+            "name": "com.DefaultCompany.GameTest",
+            "processId": 9406,
+            "exited": true
+        },
+        {
+            "deviceId": "fb24ba61",
+            "name": "com.DefaultCompany.GameTest",
+            "processId": 11304,
             "exited": true
         }
     ],
